@@ -1,10 +1,137 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title></title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
 
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Get Hired</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://use.fontawesome.com/9822dc9e23.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="container">
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top container" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#example-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="glyphicon glyphicon-menu-down"></span>
+            </button>
+                    <a class="navbar-brand" href="#" id="logo">Get Hired</a>
+                </div>
+                <!-- Collect the nav links for toggling -->
+                <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a class="hidden-xs" href="#"><input type="submit" name="submit" value="Submit" class="btn btn-default"></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+    </header>
+    <section id="application">
+      <div id="leadin">
+
+
+        <h2>We're looking for a rockstar just like you!</h2>
+        <p>
+            Please provide the information below. Click Submit when complete.
+        </p>
+        </div>
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSf0_pGlBji894STv9P7owI0oIhNnExyUtvJ2cP7JjcRDD9tLw/formResponse" target="_blank" method="POST">
+            <div class="row">
+                <h2>Basic Info</h2>
+                <div class="col-sm-6">
+                    <label for="fname">First Name</label>
+                    <input type="text" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="First Name" aria-describedby="i.desc.443689058 i.err.443689058" name="fname" value="" required dir="auto" data-initial-dir="auto" data-initial-value="">
+                    <br />
+                    <label for="lname">Last Name</label>
+                    <input type="text" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="Last Name" aria-describedby="i.desc.2127755070 i.err.2127755070" name="lname" value="" required dir="auto" data-initial-dir="auto" data-initial-value="">
+                    <br />
+                    <label for="position">Applying for Position</label>
+                    <input type="text" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="Applying for Position:" aria-describedby="i.desc.278827617 i.err.278827617" name="position" value="" required dir="auto" data-initial-dir="auto" data-initial-value="">
+                </div>
+                <div class="col-sm-6">
+                    <label for="address">Address</label>
+                    <input type="text" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="Address" aria-describedby="i.desc.574146912 i.err.574146912" name="address" value="" required dir="auto" data-initial-dir="auto" data-initial-value="">
+                    <br />
+                    <label for="phone">Best Contact Phone</label>
+                    <input type="text" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="Best Contact Phone" aria-describedby="i.desc.1301035753 i.err.1301035753" name="phone" value="" required dir="auto" data-initial-dir="auto" data-initial-value="">
+                    <br />
+                    <label for="email">Email</label>
+                    <input type="text" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="Email" aria-describedby="i.desc.1221720340 i.err.1221720340" name="email" value="" required dir="auto" data-initial-dir="auto" data-initial-value="">
+                </div>
+            </div>
+            <div class="row">
+                <h2>Employment History</h2>
+                <div class="col-sm-6">
+                    <label id="currentpos">Current Position</label>
+                    <input type="text" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="Current/Most Recent Position" aria-describedby="i.desc.1815640686 i.err.1815640686" name="currentpos" value="" required dir="auto" data-initial-dir="auto" data-initial-value="">
+                    <br />
+                    <label id="currco">Company</label>
+                    <input type="text" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="Company" aria-describedby="i.desc.1894270474 i.err.1894270474" name="currco" value="" required dir="auto" data-initial-dir="auto" data-initial-value="">
+                    <br />
+                    <label id="currcity">City, State</label>
+                    <input type="text" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="City, State" aria-describedby="i.desc.505337447 i.err.505337447" name="currcity" value="" dir="auto" data-initial-dir="auto" data-initial-value="">
+                    <br />
+                    <label id="currjobdesc">Job Description</label>
+                    <br />
+                    <textarea jsname="YPqjbf" rows="1" tabindex="0" aria-label="Job Description" jscontroller="gZjhIf" jsaction="input:Lg5SV;ti6hGc:XMgOHc;rcuQ6b:WYd;" required name="currjobdesc" dir="auto" data-initial-dir="auto" data-initial-value=""></textarea>
+                </div>
+                <div class="col-sm-6">
+                    <label id="preposition">Previous Position</label>
+                    <input type="text" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="Previous Position" aria-describedby="i.desc.1011938566 i.err.1011938566" name="preposition" value="" required dir="auto" data-initial-dir="auto" data-initial-value="">
+                    <br />
+                    <label id="preco">Company</label>
+                    <input type="text" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="Company" aria-describedby="i.desc.1862761354 i.err.1862761354" name="preco" value="" required dir="auto" data-initial-dir="auto" data-initial-value="">
+                    <br />
+                    <label id="precity">City, State</label>
+                    <input type="text" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="City, State" aria-describedby="i.desc.339155010 i.err.339155010" name="precity" value="" dir="auto" data-initial-dir="auto" data-initial-value="">
+                    <br />
+                    <label id="predesc">Job Description</label>
+                    <br />
+                    <textarea jsname="YPqjbf" rows="1" tabindex="0" aria-label="Job Description" jscontroller="gZjhIf" jsaction="input:Lg5SV;ti6hGc:XMgOHc;rcuQ6b:WYd;" required name="predesc" dir="auto" data-initial-dir="auto" data-initial-value=""></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <h2>Tell us more...</h2>
+                <div class="col-sm-12">
+
+                    <label id="lookfor">What do you look for in an employer</label>
+                    <br />
+                    <textarea jsname="YPqjbf" rows="1" tabindex="0" aria-label="What do you look for in an employer?" jscontroller="gZjhIf" jsaction="input:Lg5SV;ti6hGc:XMgOHc;rcuQ6b:WYd;" required name="lookfor" dir="auto" data-initial-dir="auto" data-initial-value=""></textarea>
+                </div>
+                <div class="col-sm-12">
+
+                    <label id="writefunc">Write a Javascript function that calculates the number of hours in a given number of days:</label>
+                    <br />
+                    <textarea jsname="YPqjbf" rows="1" tabindex="0" aria-label="Write a javascript function that calculates number of hours in a given number of days:" jscontroller="gZjhIf" jsaction="input:Lg5SV;ti6hGc:XMgOHc;rcuQ6b:WYd;" required name="writefunc" dir="auto"
+                        data-initial-dir="auto" data-initial-value=""></textarea>
+                    <input type="hidden" name="fvv" value="1">
+                    <input type="hidden" name="draftResponse" value="[,,&quot;-3569283681242995392&quot;]
+">
+                    <input type="hidden" name="pageHistory" value="0">
+                    <input type="hidden" name="fbzx" value="-3569283681242995392">
+                  </div>
+                </div>
+                <h3>That's It!  Submit your application.</h3>
+                <input type="submit" name="submit" value="Submit" class="btn btn-default">
+        </form>
+
+
+    </section>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
+
 </html>

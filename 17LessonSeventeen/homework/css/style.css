@@ -1,0 +1,47 @@
+.row, h1, h2, h3 {
+  margin: 0;
+}
+#application {
+  padding: 2% 2%;
+  margin-top: 50px;
+  font-family: 'Fjalla One', sans-serif;
+}
+#leadin {
+  height: 150px;
+  background: linear-gradient(-45deg, rgb(0, 77, 153), rgb(51, 153, 255));
+  color: white;
+}
+#leadin, form > div {
+  padding: 2% 1%;
+}
+label {
+  width: 150px;
+  line-height: 28px;
+}
+input {
+  height: 28px;
+  width: 200px;
+}
+textarea {
+  width: 350px;
+  height: 200px;
+}
+#lookfor, #writefunc {
+  width: 350px;
+}
+@media screen and (max-width: 768px) {
+  label {
+    margin-bottom: 3px;
+  }
+  textarea {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  label {
+    margin-bottom: 3px;
+  }
+  textarea {
+    width: 300px;
+  }
+}
